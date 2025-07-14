@@ -1,7 +1,7 @@
 Scripts for Final Year Project
 
-Python
-
+Python (3.13.5)
+<br>
 |Script |Function|
 | --- | --- |
 |copy_rename.py | Copy files to another directory and rename copied files using a csv|
@@ -22,8 +22,13 @@ Python
 |subunit_split.py| Split S protein seq into S1 and S2 using ProP output|
 
 
-R 
+R (4.4.2)
 
+Requires ggplot2, which can be installed using the following:
+```
+install.packages("ggplot2")
+```
+<br>
 |Script |Function|
 | --- | --- |
 |gcdnds.R | Plots GC content against dN/dS ratio|
