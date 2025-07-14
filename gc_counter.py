@@ -17,6 +17,6 @@ def main(fasta_file, output_csv):
             csvwriter.writerow([header, gc_content])
 
 if __name__ == '__main__':
-    fasta_file = 'C:\\Users\\User\\Desktop\\protein.fasta'
-    output_csv = 'C:\\Users\\User\\Desktop\\output.csv'
+    fasta_file = 'C:\\Users\\User\\Desktop\\fyp_data\\Sequences\\spike_cds.fasta'
+    output_csv = 'C:\\Users\\User\\Desktop\\fyp_data\\spike_gc.csv'
     main(fasta_file, output_csv)
